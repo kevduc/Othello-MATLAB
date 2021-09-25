@@ -1,9 +1,9 @@
 classdef Othello < handle
 %OTHELLO Launch Othello game
-%   OTHELLO() starts a 2-player local game (shared-mouse)
+%   OTHELLO() starts a 2-player game on one computer (shared-mouse)
 %   OTHELLO(boardSize) boardsize should be a 2x1 vector, and
 %   more than [2 2]
-%   OTHELLO(opponent) starts a 2-player online game
+%   OTHELLO(opponent) starts a 2-player LAN game
 %   opponent is the opponent's computer IP address
 %   OTHELLO(opponent, yourColor) yourColor can be 'w' or 'b'
 %   OTHELLO(opponent, boardSize)
